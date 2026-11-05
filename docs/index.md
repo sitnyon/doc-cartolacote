@@ -3,12 +3,12 @@
 layout: home
 
 hero:
-  # name: "*.geo.admin.ch"
-  text: 'Welcome to the Tech Docs of geo.admin.ch'
-  tagline: We provide web services and components to interact with the Federal Spatial Data Infrastructure (FSDI). The tech docs are dedicated to developers using these services.
+  # name: "*.cartolacote.ch"
+  text: 'Bienvenue sur la documentation cartolacote.ch'
+  tagline: Cette documentation vous permet de prendre en même tous les services délivrés par Cartolacote.
   image:
-    src: /swisstopo_map.png
-    alt: Geoportal
+    src: /xxx.png
+    alt: Geoportail
   actions:
     - text: Get started
       link: /get-started/overview
@@ -17,24 +17,24 @@ hero:
       link: /page/get-help
 
 features:
-  - title: Explore Data
-    details: Browse additional information about layers, including attributes and other metadata.
-    link: /explore-data/get-layer-metadata
+  - title: Geoportail Cartolacôte
+    details: Docs Geoportail Cartolacôte
+    link: /geoportail
     icon: 🧭
-  - title: Access Data
-    details: Retrieve location-based features such as geometries, addresses and elevation.
-    link: /access-data/identify-features
+  - title: Geoportail 3D Cartolacôte
+    details: Docs Geoportail 3D Cartolacôte
+    link: /geoportail-3d
     icon: 🔎
-  - title: Visualize Data
-    details: Access map data (2D and 3D) for visualization in your application.
+  - title: Geoportail LiDAR Cartolacôte
+    details: Docs Geoportail LiDAR Cartolacôte
     icon: 👁
-    link: /visualize-data/wms
-  - title: Download Data
-    details: Download entire datasets for exploration and analysis.
+    link: /geoportail-lidar
+  - title: Webservices
+    details: Docs  Webservices
     icon: ⬇️
-    link: /download-data/stac-api/overview
-  - title: Map Viewer
+    link: /webservices
+  - title: Commande de données
     details: Integrate and customize map.geo.admin.ch as an interactive map in your webpage.
     icon: 🗺️
-    link: /map-viewer/embed-in-an-iframe
+    link: /commande-donnees
 ---
