@@ -7,7 +7,7 @@ hero:
   text: 'Bienvenue sur la documentation cartolacote.ch'
   tagline: Cette documentation vous permet de prendre en main tous les services délivrés par Cartolacôte.
   image:
-    src: /xxx.png
+    src: /cartolacote.png
     alt: Geoportail
   actions:
     - text: Get started
