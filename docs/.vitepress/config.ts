@@ -1,4 +1,9 @@
+
 import { defineConfig } from 'vitepress'
 
-// https://vitepress.vuejs.org/config/app-configs
-export default defineConfig({})
+export default defineConfig({
+  title: 'Documentation Cartolacôte',
+  description: 'Documentation Cartolacôte',
+
+  base: '/doc-cartolacote/',
+})
