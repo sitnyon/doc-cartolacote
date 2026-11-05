@@ -5,7 +5,7 @@ layout: home
 hero:
   # name: "*.cartolacote.ch"
   text: 'Bienvenue sur la documentation cartolacote.ch'
-  tagline: Cette documentation vous permet de prendre en même tous les services délivrés par Cartolacote.
+  tagline: Cette documentation vous permet de prendre en main tous les services délivrés par Cartolacôte.
   image:
     src: /xxx.png
     alt: Geoportail
