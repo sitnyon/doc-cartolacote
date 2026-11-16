@@ -39,3 +39,8 @@ features:
     icon: 🗺️
     link: /commande-donnees/01-commande-geodonnees
 ---
+
+<div class="container">
+<h3>Historique de version</h3>
+<a href="/doc-cartolacote/versions/01-versions">Voir toutes les versions</a>
+</div>
