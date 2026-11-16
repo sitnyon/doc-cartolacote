@@ -3,38 +3,39 @@
 layout: home
 
 hero:
-  # name: "*.cartolacote.ch"
-  text: 'Bienvenue sur la documentation cartolacote.ch'
+  #name: "*.cartolacote.ch"
+  title: Bienvenue
+  text: 'Bienvenue sur la documentation Cartolacôte'
   tagline: Cette documentation vous permet de prendre en main tous les services délivrés par Cartolacôte.
   image:
     src: /cartolacote.png
     alt: Geoportail
-  actions:
-    - text: Get started
-      link: /get-started/overview
-    - theme: alt
-      text: Getting help
-      link: /page/get-help
+#  actions:
+#    - text: Get started
+#      link: /get-started/overview
+#    - theme: alt
+#      text: Getting help
+#      link: /page/get-help
 
 features:
   - title: Geoportail Cartolacôte
-    details: Docs Geoportail Cartolacôte
-    link: /geoportail
+    details: Comment explorez les territoires et les données thématiques sur le Geoportail Cartolacôte
+    link: /geoportail/01-geoportail
     icon: 🧭
   - title: Geoportail 3D Cartolacôte
-    details: Docs Geoportail 3D Cartolacôte
-    link: /geoportail-3d
+    details: Comment explorez le territoire en 3D avec la plateforme cartolacote.uzuverse.com
+    link: /geoportail-3d/01-geoportail-3d
     icon: 🔎
-  - title: Geoportail LiDAR Cartolacôte
+  - title: Geoportail 3D LiDAR Cartolacôte
     details: Docs Geoportail LiDAR Cartolacôte
     icon: 👁
-    link: /geoportail-lidar
+    link: /geoportail-3d-lidar/01-geoportail-3d-lidar
   - title: Webservices
     details: Docs  Webservices
     icon: ⬇️
-    link: /webservices
+    link: /webservices/01-webservices
   - title: Commande de données
-    details: Integrate and customize map.geo.admin.ch as an interactive map in your webpage.
+    details: Télécharger les données via les services de l'ASIT
     icon: 🗺️
-    link: /commande-donnees
+    link: /commande-donnees/01-commande-geodonnees
 ---

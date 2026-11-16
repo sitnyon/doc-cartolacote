@@ -1,0 +1,15 @@
+@media (min-width: 768px) {
+    .VPContent .item {
+        width: 50% !important;
+    }
+}
+@media (min-width: 640px) {
+    .VPContent .item {
+        width: 50% !important;
+    }
+}
+@media (min-width: 960px) {
+    .VPContent .item {
+        width: 20% !important;
+    }
+}
