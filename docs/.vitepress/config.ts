@@ -75,6 +75,9 @@ export default defineConfig({
         }
       }
     },
+    footer: {
+      copyright: 'Copyright © 2026 Cartolacôte'
+    }
   },
 })
 

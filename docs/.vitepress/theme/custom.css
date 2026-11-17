@@ -1,3 +1,15 @@
+:root {
+    --vp-c-brand-1: #308f99;
+	--vp-c-brand-2: #4dc1df;
+    --vp-c-brand-3: #308f99;
+}
+
+.dark {
+    --vp-c-brand-1: #bade30;
+	--vp-c-brand-2: #bade30;
+    --vp-c-brand-3: #8CA724;
+}
+
 @media (min-width: 768px) {
     .VPContent .item {
         width: 50% !important;

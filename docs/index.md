@@ -10,9 +10,13 @@ hero:
   image:
     src: /cartolacote.png
     alt: Geoportail
-#  actions:
-#    - text: Get started
-#      link: /get-started/overview
+  actions:
+    - text: map.cartolacote.ch
+      link: https://map.cartolacote.ch/
+    - text: cartolacote.uzuverse.com
+      link: https://cartolacote.uzuverse.com/
+    - text: potree.cartolacote.ch/lidar
+      link: https://potree.cartolacote.ch/lidar/
 #    - theme: alt
 #      text: Getting help
 #      link: /page/get-help
