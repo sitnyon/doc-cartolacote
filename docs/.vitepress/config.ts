@@ -37,9 +37,43 @@ export default defineConfig({
         items: commandeGeodonneesItems(),
       },
     ],
-
+    docFooter: {
+      prev: 'Page précédente',
+      next: 'Page suivante'
+    },
+    outline: {
+      label: 'Sur cette page'
+    },
+    lastUpdated: {
+      text: 'Mis à jour le'
+    },
+    darkModeSwitchLabel: 'Apparence',
+    lightModeSwitchTitle: 'Passer au thème clair',
+    darkModeSwitchTitle: 'Passer au thème sombre',
+    sidebarMenuLabel: 'Menu',
+    returnToTopLabel: 'Retour en haut',
+    langMenuLabel: 'Changer de langue',
+    skipToContentLabel: 'Aller au contenu',
     search: {
       provider: 'local',
+      options: {
+        translations: {
+          button: {
+            buttonText: 'Rechercher',
+            buttonAriaLabel: 'Rechercher'
+          },
+          modal: {
+            noResultsText: 'Aucun résultat trouvé pour',
+            resetButtonTitle: 'Effacer la recherche',
+            displayDetails: 'Afficher les détails',
+            footer: {
+              selectText: 'pour sélectionner',
+              navigateText: 'pour naviguer',
+              closeText: 'pour fermer'
+            }
+          }
+        }
+      }
     },
   },
 })

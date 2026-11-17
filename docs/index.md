@@ -41,6 +41,6 @@ features:
 ---
 
 <div class="container">
-<h3>Historique de version</h3>
-<a href="/doc-cartolacote/versions/01-versions">Voir toutes les versions</a>
+<h2>Historique des versions</h2>
+<a class="vp-external-link-icon link" href="/doc-cartolacote/versions/01-versions">Voir toutes les versions</a>
 </div>
