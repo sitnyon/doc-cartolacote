@@ -106,7 +106,16 @@ function geoportail3DLidarItems(): DefaultTheme.SidebarItem[] {
 
 function webservicesItems(): DefaultTheme.SidebarItem[] {
     return [
-        { text: 'Présentation générale', link: '/webservices/01-webservices' },
+        { text: 'Présentation générale', link: '/webservices/webservices' },
+        { text: 'Adresse', link: '/webservices/webservices-adresse' },
+        { text: 'Adresses', link: '/webservices/webservices-adresses' },
+        { text: 'Chantiers et perturbations de trafic', link: '/webservices/webservices-chantiers' },
+        { text: 'Catalogue', link: '/webservices/webservices-catalogue' },
+        { text: 'Documents', link: '/webservices/webservices-documents' },
+        { text: 'Enquêtes publiques', link: '/webservices/webservices-enquetes-publiques' },
+        { text: 'Métadonnées', link: '/webservices/webservices-metadonnees' },
+        { text: 'Nature en ville', link: '/webservices/webservices-nature-ville' },
+        { text: 'Rues', link: '/webservices/webservices-rues' },
     ]
 }
 

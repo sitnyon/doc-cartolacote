@@ -37,7 +37,7 @@ features:
   - title: Webservices
     details: Docs  Webservices
     icon: ⬇️
-    link: /webservices/01-webservices
+    link: /webservices/webservices
   - title: Commande de données
     details: Télécharger les données via les services de l'ASIT
     icon: 🗺️
