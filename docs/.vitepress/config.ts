@@ -36,6 +36,11 @@ export default defineConfig({
         collapsed: false,
         items: commandeGeodonneesItems(),
       },
+      {
+        text: 'Historique des versions',
+        collapsed: false,
+        items: historiqueVersionsItems(),
+      },
     ],
     docFooter: {
       prev: 'Page précédente',
@@ -108,5 +113,11 @@ function webservicesItems(): DefaultTheme.SidebarItem[] {
 function commandeGeodonneesItems(): DefaultTheme.SidebarItem[] {
     return [
         { text: 'Présentation générale', link: '/commande-geodonnees/01-commande-geodonnees' },
+    ]
+}
+
+function historiqueVersionsItems(): DefaultTheme.SidebarItem[] {
+    return [
+        { text: 'Toutes les versions', link: '/versions/01-versions' },
     ]
 }
